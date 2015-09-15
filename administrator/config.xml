@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="params"
+		label="Paramètres"
+		description="Paramètres du catalogue">
+           <field name="organizations"
+                   type="organizationlist"
+                   class="inputbox input-xlarge"
+		   multiple="true"
+                   required ="true"
+                   label="Organismes"
+                   description="Organismes utilisés dans le catalogue">
+           </field>
+	</fieldset>
+</config>
